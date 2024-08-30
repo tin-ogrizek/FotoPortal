@@ -1,0 +1,16 @@
+.button {
+    font-size: 1vw;
+    border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+    .button {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 420px) {
+    .button {
+        font-size: 4vw;
+    }
+}

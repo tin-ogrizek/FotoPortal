@@ -1,0 +1,37 @@
+.details-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 75%;
+    justify-self: center;
+    align-self: center;
+}
+
+.image-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7vh;
+    width: 80%;
+}
+
+.description-container {
+    margin-bottom: 7vh;
+}
+
+@media (max-width: 768px) {
+
+    .image-info-container {
+        margin-bottom: 7vw;
+    }
+
+    .description-container {
+        margin-bottom: 7vw;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .image-info-container {
+        width: 100%;
+    }
+}

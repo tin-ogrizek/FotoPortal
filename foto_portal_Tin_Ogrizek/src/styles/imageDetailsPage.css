@@ -1,0 +1,15 @@
+.main-container {
+    width: 100%;
+    aspect-ratio: 1366 / 1045;
+    height: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

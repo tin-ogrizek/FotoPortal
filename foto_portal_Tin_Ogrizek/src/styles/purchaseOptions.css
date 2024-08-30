@@ -1,0 +1,256 @@
+.purchase-main-container {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*purchase info and options*/
+.options-container {
+    width: calc((340 / 410) * 100%);
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.info-text {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 2vh;
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.info-icon {
+    margin-left: 5px;
+    font-size: 1.2vw;
+}
+
+.signature-input {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 1.1vw;
+}
+
+.signature-input input {
+    margin-right: 0.5vw;
+    height: 1.3vw;
+    width: 1.3vw;
+    border-radius: 5px;
+    border: 1px solid #AAAAAA;
+    appearance: none;
+}
+
+/*buttons*/
+
+.buttons-container {
+    width: calc((340 / 410) * 100%);
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+
+    gap: 2vw;
+}
+
+.grey-buttons-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1vw;
+}
+
+.small-button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-buttons-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1vw;
+}
+
+.grey-button {
+    height: 3vw;
+    background: #E8E8E8;
+    color: #212121;
+    font-weight: 600;
+    border: none;
+
+}
+
+.small-grey-button {
+    height: 2.5vw;
+    width: 48%;
+    background: #E8E8E8;
+    color: #212121;
+    font-weight: 400;
+    border: none;
+}
+
+.cart-button {
+    height: 3vw;
+    background: #212121;
+    color: #FFFFFF;
+    font-weight: 500;
+    border: none;
+}
+
+.download-icon {
+    background: none;
+    margin-right: 1vw;
+}
+
+.cart-icon {
+    background: none;
+    margin-right: 1vw;
+}
+
+.white-button {
+    height: 2.5vw;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+/*separating line*/
+
+.separating-line {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: calc((340 / 410) * 100%);
+    border: 1px solid #E8E8E8;
+}
+
+/*warning section*/
+
+.warning-container {
+    width: calc((340 / 410) * 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .purchase-main-container {
+        align-self: center;
+    }
+
+    .options-container {
+        width: 70%;
+    }
+
+    .info-text {
+        font-size: 2.5vw;
+        margin-bottom: 1vh;
+    }
+
+    .info-icon {
+        font-size: 2.5vw;
+        margin-top: 0.5vw;
+    }
+
+    .signature-input {
+        font-size: 2.5vw;
+    }
+
+    .signature-input input {
+        height: 2.5vw;
+        width: 2.5vw;
+    }
+
+    /* buttons */
+    .buttons-container {
+        width: 70%;
+        height: 40vw;
+        margin-top: 20px;
+        gap: 5vw;
+    }
+
+    .grey-buttons-container {
+        gap: 2vw;
+    }
+
+    .other-buttons-container {
+        gap: 2vw;
+    }
+
+    .grey-button {
+        height: 7vw;
+    }
+
+    .small-grey-button {
+        height: 6vw;
+    }
+
+    .cart-button {
+        height: 7vw;
+    }
+
+    .white-button {
+        height: 6vw;
+    }
+
+    /*the rest*/
+    .separating-line {
+        width: 90%;
+    }
+
+    .warning-container {
+        width: 90%;
+        border-bottom: 1px solid #E8E8E8;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .options-container {
+        width: 90%;
+    }
+
+    .info-text,
+    .signature-input,
+    .info-icon {
+        font-size: 4vw;
+    }
+
+    .signature-input input {
+        height: 4vw;
+        width: 4vw;
+        margin-right: 5px;
+    }
+
+    /* buttons */
+    .buttons-container {
+        width: 90%;
+        height: 40vh;
+        margin-top: 20px;
+        gap: 5vw;
+    }
+
+    .grey-buttons-container {
+        gap: 2vw;
+    }
+
+    .other-buttons-container {
+        gap: 2vw;
+    }
+
+    .grey-button {
+        height: 8vh;
+    }
+
+    .small-grey-button {
+        height: 7vh;
+    }
+
+    .cart-button {
+        height: 8vh;
+    }
+
+    .white-button {
+        height: 7vh;
+    }
+}

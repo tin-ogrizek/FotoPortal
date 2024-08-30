@@ -1,0 +1,30 @@
+.info-item h4 {
+    font-size: 1vw;
+    font-weight: 700;
+    margin-bottom: 1vh;
+}
+
+.info-item p {
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .info-item h4 {
+        font-size: 2.2vw;
+    }
+
+    .info-item p {
+        font-size: 2.3vw;
+    }
+}
+
+@media (max-width: 420px) {
+    .info-item h4 {
+        font-size: 4vw;
+    }
+
+    .info-item p {
+        font-size: 4.1vw;
+    }
+}

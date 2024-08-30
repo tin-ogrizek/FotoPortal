@@ -1,0 +1,39 @@
+.image-main-container {
+    background: #f4f5f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-main-container img {
+    background: #f4f5f7;
+    width: calc((448 / 956) * 100%);
+    height: calc((527 / 634) * 100%);
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .image-main-container {
+        margin-bottom: 20px;
+        height: 90vh;
+    }
+
+    .image-main-container img {
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 420px) {
+    .image-main-container {
+        margin-bottom: 20px;
+        height: 80vh;
+    }
+
+    .image-main-container img {
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+    }
+}
